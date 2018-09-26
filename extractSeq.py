@@ -10,7 +10,7 @@ print(len(seqList))
 for i in seqList:
     for gene in geneList:
         if i == gene:
-            seqFiles = open('/home/leia/code/' + gene, 'wa')
+            seqFiles = open('/home/leia/code/' + gene, 'w')
             seqFiles.write(i)
             p = seqList.index(i)
             while (seqList[p+1][0] != '>'):
