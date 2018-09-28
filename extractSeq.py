@@ -1,7 +1,8 @@
 ############################################################
 #
-# retrive the 3' UTR in the whole genome, and output to a 
-# new file with the gene name in fast format
+# retrive the 3' UTR of some genes from all the 3' UTR of a
+# whole genome in one file, and output the 3' UTR of each 
+# gene to a new file with the gene name in fast format
 #
 # hgTables.txt: all the 3' UTR sequence of a whole genome 
 # in fast format
