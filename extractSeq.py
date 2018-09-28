@@ -1,3 +1,15 @@
+############################################################
+#
+# retrive the 3' UTR in the whole genome, and output to a 
+# new file with the gene name in fast format
+#
+# hgTables.txt: all the 3' UTR sequence of a whole genome 
+# in fast format
+#
+# geneName.txt: the 3' UTR sequence of a gene in fast format
+# 
+############################################################
+
 # -*- coding: utf-8 -*-
 #!/usr/bin/python
 
