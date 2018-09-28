@@ -1,9 +1,15 @@
-
+##################################################################
+#
+# Dynamic programming solution to 0-1 Knapsack problem
+#
+##################################################################
 #include<cstdio>
 #include<algorithm>
+
 using namespace std;
-#define MAXN 1000
-#define MAXC 100000
+
+#define MAXN 2000
+#define MAXC 80000
 
 int V[MAXN], W[MAXN];
 int d[MAXN][MAXC];
